@@ -1,0 +1,12 @@
+services:
+  code-interpreter:
+    build:
+      context: . 
+      dockerfile: Dockerfile
+    image: code-interpreter-demo
+    ports:
+      - "8500:8500"  
+    environment:
+      - STREAMLIT_SERVER_PORT=8500
+    volumes:
+      - .:/app

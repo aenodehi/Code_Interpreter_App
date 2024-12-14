@@ -1,0 +1,12 @@
+langchain
+python-dotenv
+langchain-community
+sentence_transformers
+bs4
+langchain-ollama
+langchain-google-genai
+langchain-huggingface
+pandas
+streamlit
+transformers
+docker

@@ -1,0 +1,4 @@
+- what is the highest mountain in the world
+- write a program to generate password
+- open hacker news
+- create a bar chart showing the growing use of Generative AI
