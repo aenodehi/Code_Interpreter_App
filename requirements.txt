@@ -10,3 +10,4 @@ pandas
 streamlit
 transformers
 docker
+flask

@@ -2,3 +2,6 @@
 - write a program to generate password
 - open hacker news
 - create a bar chart showing the growing use of Generative AI
+- create a webpage with css containing the header Code Interpreter a form field with title prompt and placeholder ""write your prompt here" , below it add a button called "Run" and serve it on port 8080.
+
+Everything should be in the same file.

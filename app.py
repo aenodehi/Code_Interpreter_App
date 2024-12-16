@@ -94,7 +94,7 @@ def get_code_group(llm_response: str) -> str | bool:
 def execute_local(temp_file_path: str) -> str:
     """Executes a Python script locally and returns its output.
 
-    Runs the given Python script file using python3.10 interpreter in a subprocess
+    Runs the given Python script file using python3.12 interpreter in a subprocess
     with a x second timeout. Captures and returns stdout/stderr.
 
     Args:
@@ -112,7 +112,7 @@ def execute_local(temp_file_path: str) -> str:
     """
     try:
         result = subprocess.run(
-            ["python3.10", temp_file_path], capture_output=True, text=True, timeout=10
+            ["python3.12", temp_file_path], capture_output=True, text=True, timeout=10
         )
         print(">>> Running code completed!")
         return result.stdout if result.returncode == 0 else result.stderr
