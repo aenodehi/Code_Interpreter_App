@@ -11,3 +11,9 @@ streamlit
 transformers
 docker
 flask
+folium
+paho-mqtt
+flask_mqtt
+clickhouse_driver
+polyline
+flask_socketio

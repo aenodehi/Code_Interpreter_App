@@ -5,3 +5,34 @@
 - create a webpage with css containing the header Code Interpreter a form field with title prompt and placeholder ""write your prompt here" , below it add a button called "Run" and serve it on port 8080.
 
 Everything should be in the same file.
+
+- I want to build a IoT website. It should have registeration and login. Then it should have page to add GPS device with IMEI and over MQTT.
+Every user should have its devices' list and could see device route and parameter history on map and in table format.
+on the backend all data should be recieved using a mqtt broker and saved in related tables in clickhouse
+
+
+continue with frontend prototype
+
+
+change the map to use OSM.
+add a menu to view device route history.
+add a menu to view device battery, temperature history.
+add a menu/panel to view device alarms
+
+
+Deploy this application.
+
+
+add a page for each user so it can see last location of all its devices.
+add a page so user can draw a geofence (in form of polygon or circle) and assign it to a device or devices
+add direction to the route history lines so the sequence of traveling is clear in the view.
+mark starting and last positions in different color marker
+add speed variant color to the lines between points where the color of the line changes according to the speed of traveling.
+for battery and temperature, add a threshold line to the graph that separates the green and yellow and red section. each time the line came in each section it should change to the color of the region
+
+
+the geofence design and assignment is't working and couldn't find any menu for drawing and assigning for it.
+I also couldn't find the arrows on the route, so one could find the direction of the trip of the device.
+fix these issues
+
+please serve it on port 8080
